@@ -1,0 +1,17 @@
+/* Fade-in effect for sections */
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Button hover effect */
+.btn:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease-in-out;
+}

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SyncNote - Smart Note-Taking App</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script defer src="js/script.js"></script>
+    <script defer src="js/validation.js"></script>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <div class="container">
+      <a class="navbar-brand" href="#">MyProduct</a>
+      <button class="navbar-toggler" type="button">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <button class="close-navbar">&times;</button> <!-- Close Button -->
+          <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+              <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+      </div>
+  </div>
+</nav>
+
+
+
+   
+   <!-- Hero Section -->
+<section id="hero" class="hero">
+  <div class="container text-center">
+      <h1>Welcome to Our Amazing Product</h1>
+      <p>Experience innovation and efficiency like never before.</p>
+     
+  </div>
+</section>
+
+
+    <!-- Feature Highlights -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="text-center">Why Choose SyncNote?</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <img src="images/feature-bg.png" alt="Easy to Use">
+                        <h3>📌 Easy to Use</h3>
+                        <p>Simple, intuitive interface for seamless </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <img src="images/feature-bg.png" alt="Cloud Sync">
+                        <h3>☁ Cloud Sync</h3>
+                        <p>Access your notes from any device.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <img src="images/feature-bg.png" alt="Smart AI">
+                        <h3>🔍 Smart AI </h3>
+                        <p>Get intelligent recommendations.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Plans -->
+   
+<section id="pricing" class="pricing">
+  <div class="container text-center">
+      <h2>Choose Your Plan</h2>
+      <div class="row">
+          <div class="col-md-4">
+              <div class="card">
+                  <img src="images/pricing-bg.webp" alt="Free Plan">
+                  <h3>Free Plan</h3>
+                  <p>Basic features with limited storage.</p>
+                  <p><strong>$0/month</strong></p>
+                  <a href="#" class="btn btn-primary">Sign Up</a>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="card">
+                  <img src="images/pricing-bg.webp" alt="Pro Plan">
+                  <h3>Pro Plan</h3>
+                  <p>Unlimited storage & AI assistance.</p>
+                  <p><strong>$9.99/month</strong></p>
+                  <a href="#" class="btn btn-primary">Get Pro</a>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="card">
+                  <img src="images/pricing-bg.webp" alt="Enterprise Plan">
+                  <h3>Enterprise Plan</h3>
+                  <p>Advanced security </p>
+                  <p><strong>$29.99/month</strong></p>
+                  <a href="#" class="btn btn-primary">Get Enterprise</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+
+   <!-- Contact Section -->
+<section id="contact" class="contact">
+  <div class="container">
+      <h2 class="text-center">Get in Touch</h2>
+      <p class="text-center">Have questions? Feel free to reach out to us!</p>
+      
+      <div class="row align-items-center">
+          <!-- Contact Image -->
+          <div class="col-md-6 text-center">
+              <img src="images/contact-bg.jpg" alt="Contact Us" class="contact-img">
+          </div>
+
+          <!-- Contact Form -->
+          <div class="col-md-6">
+              <form id="contactForm">
+                  <div class="input-group">
+                      <span class="icon">👤</span>
+                      <input type="text" id="name" placeholder="Your Name" required>
+                  </div>
+                  <div class="input-group">
+                      <span class="icon">✉️</span>
+                      <input type="email" id="email" placeholder="Your Email" required>
+                  </div>
+                  <div class="input-group">
+                      <span class="icon">📌</span>
+                      <input type="text" id="subject" placeholder="Subject" required>
+                  </div>
+                  <div class="input-group">
+                      <span class="icon">📝</span>
+                      <textarea id="message" placeholder="Your Message" required></textarea>
+                  </div>
+                  <button type="submit" class="btn-submit">Send Message</button>
+              </form>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

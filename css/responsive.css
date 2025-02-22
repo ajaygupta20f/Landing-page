@@ -1,0 +1,14 @@
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero {
+      padding: 60px 0;
+  }
+  
+  .features, .pricing, .contact {
+      padding: 50px 20px;
+  }
+
+  .contact form {
+      width: 90%;
+  }
+}
